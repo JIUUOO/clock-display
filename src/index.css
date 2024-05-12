@@ -1,0 +1,33 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+
+.wrap-clock {
+  display: flex;
+  width: 45rem;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border: 0.4rem solid;
+}
+
+.clock {
+  font-size: 3rem;
+  color: black;
+  padding: 0 0.2rem;
+
+  transform: rotateX(90deg) translateZ();
+}
+
+@media (max-width: 750px) {
+  .wrap-clock {
+    width: 30rem;
+  }
+  span {
+    display: block;
+  }
+}
