@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Jua&display=swap");
+
 body {
   background-color: ivory;
 }
@@ -13,8 +15,9 @@ body {
 }
 
 .clock {
+  font-family: "Jua", sans-serif;
   font-size: 3rem;
-  font-weight: 900;
+  font-weight: 600;
   padding: 0 0.2rem;
 
   background: linear-gradient(
@@ -37,7 +40,7 @@ body {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
   .wrap-clock {
     width: 20rem;
   }
