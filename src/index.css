@@ -36,3 +36,12 @@ body {
     display: block;
   }
 }
+
+@media (max-width: 500px) {
+  .wrap-clock {
+    width: 20rem;
+  }
+  .clock {
+    font-size: 2rem;
+  }
+}
