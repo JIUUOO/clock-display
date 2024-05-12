@@ -33,6 +33,8 @@ function Now() {
         return "금";
       case 6:
         return "토";
+      default:
+        return " ";
     }
   };
   let day = dayKr(today.getDay());

@@ -1,6 +1,5 @@
 body {
-  background-color: white;
-  margin: 0;
+  background-color: ivory;
 }
 
 .wrap-clock {
@@ -11,16 +10,22 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-  border: 0.4rem solid;
 }
 
 .clock {
   font-size: 3rem;
-  color: black;
+  font-weight: 900;
   padding: 0 0.2rem;
 
-  transform: rotateX(90deg) translateZ();
+  background: linear-gradient(
+    90deg,
+    hsla(333, 100%, 53%, 1) 0%,
+    hsla(33, 94%, 57%, 1) 100%
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media (max-width: 750px) {
