@@ -39,7 +39,7 @@ function Now() {
 
   let hour = makeFormat(((today.getHours() - 1) % 12) + 1, " ");
   let minute = makeFormat(today.getMinutes(), "0");
-  let prefix = hour <= 11 ? "오전" : "오후";
+  let prefix = today.getHours() <= 11 ? "오전" : "오후";
   let second = makeFormat(today.getSeconds(), "0");
 
   let completeDate = year + "년 " + month + "월 " + date + "일 (" + day + ") ";
