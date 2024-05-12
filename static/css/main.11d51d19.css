@@ -1,0 +1,2 @@
+body{background-color:ivory}.wrap-clock{display:flex;left:50%;position:absolute;top:50%;transform:translate(-50%,-50%);width:45rem}.clock{-webkit-text-fill-color:#0000;background:linear-gradient(90deg,#ff0f7b,#f89c2a);background-clip:text;-webkit-background-clip:text;font-size:3rem;font-weight:900;padding:0 .2rem}@media (max-width:750px){.wrap-clock{width:30rem}span{display:block}}@media (max-width:500px){.wrap-clock{width:20rem}.clock{font-size:2rem}}
+/*# sourceMappingURL=main.11d51d19.css.map*/
