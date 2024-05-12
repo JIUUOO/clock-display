@@ -1,7 +1,7 @@
 {
-  "hompage": "https://JIUUOO.github.io/clock-display",
   "name": "clock-display",
   "version": "0.1.0",
+  "hompage": "https://JIUUOO.github.io/clock-display",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
